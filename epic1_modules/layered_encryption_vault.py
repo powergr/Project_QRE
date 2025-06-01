@@ -7,7 +7,7 @@ from cryptography.hazmat.primitives import padding
 import oqs
 import os
 import uuid # For key_id generation
-from key_vault_manager import store_keys, get_keys # Import from our new module
+from .key_vault_manager import store_keys, get_keys # Import from our new module
 
 KEM_ALGORITHM_LAYERED = "ML-KEM-512" # Consistent KEM algorithm
 
