@@ -1,0 +1,1 @@
+python -m unittest discover -s tests.epic3_tests -p "test_*.py"

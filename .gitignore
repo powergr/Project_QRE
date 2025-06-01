@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+# If your venv is in the project root and named 'venv'
+venv/ 
+# Or more generally for common venv names:
+# /venv/
+# /.venv/
+# /env/
+# /.env/
+# /virtualenv/
+# /pyvenv/
+# /ENV/
+# External library
+
+liboqs-python/
+
+# Test directory (if it's named 'test' at the root)
+test_files/
+
+# IDE / Editor specific files (examples)
+.vscode/
+.idea/
+*.swp
+*~
