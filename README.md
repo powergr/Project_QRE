@@ -148,9 +148,15 @@ This PoC uses Vault in **development mode only (NOT for production)**.
 *   **`docs/benchmark_report.md`**: Performance benchmark results for Epic 1 schemes.
 *   (Future) API documentation, tutorials based on Epic 4.
 
+## API Documentation
+
+*   **Interactive API Docs (Swagger UI):** Served at `/docs` when the API server is running (e.g., `http://127.0.0.1:8000/docs`).
+*   **Interactive API Docs (ReDoc):** Served at `/redoc` when the API server is running.
+*   **Static API Guide:** See [API Endpoint Guide](./docs/api_guide.md) for detailed endpoint descriptions and `curl` examples.
+*   **API Tutorial:** See [API Usage Tutorial](./docs/api_tutorial.md) for a step-by-step example using Python to interact with the API.
+
 ## Future Work
 
-*   **Epic 4: API and User Interface Development:** Build interfaces to make this system accessible.
 *   **Production Hardening:** Address all points in `docs/security_considerations.md`, including robust Vault setup, certified QRNGs, and rigorous entropy analysis.
 *   **Algorithm Updates:** Stay current with NIST PQC standardization and update cryptographic primitives as needed.
 

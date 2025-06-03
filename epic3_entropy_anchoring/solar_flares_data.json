@@ -1,22 +1,22 @@
 {
-    "retrieved_at_utc": "2025-06-03T21:25:08.325021+00:00",
+    "retrieved_at_utc": "2025-06-03T22:09:18.674704+00:00",
     "flare_data_source": "NOAA GOES Primary X-ray Flares (latest)",
     "data_entries": [
         {
-            "time_tag": "2025-06-03T21:22:00Z",
+            "time_tag": "2025-06-03T22:05:00Z",
             "satellite": 18,
-            "current_class": "B9.5",
-            "current_ratio": 0.03224559497845737,
-            "current_int_xrlong": 0.01240150909870863,
-            "begin_time": "2025-06-03T12:52:00Z",
+            "current_class": "B8.2",
+            "current_ratio": 0.02479092458924772,
+            "current_int_xrlong": 0.001048808335326612,
+            "begin_time": "2025-06-03T21:37:00Z",
             "begin_class": "B9.1",
-            "max_time": "2025-06-03T13:03:00Z",
-            "max_class": "M1.4",
-            "max_xrlong": 1.4786208339501172e-05,
-            "end_time": "2025-06-03T13:12:00Z",
-            "max_ratio_time": "2025-06-03T12:56:38Z",
-            "max_ratio": 0.19382540734833012,
-            "end_class": "C7.4"
+            "max_time": "2025-06-03T21:44:00Z",
+            "max_class": "C1.9",
+            "max_xrlong": 1.9180561139364727e-06,
+            "end_time": "2025-06-03T21:47:00Z",
+            "max_ratio_time": "2025-06-03T21:43:48Z",
+            "max_ratio": 0.11319578989862046,
+            "end_class": "C1.4"
         }
     ]
 }
