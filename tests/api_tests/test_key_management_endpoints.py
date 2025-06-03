@@ -88,7 +88,9 @@ class TestKeyManagementEndpoints: # Pytest will collect classes starting with Te
         response = api_client.delete(f"/vault/keys/{non_existent_key_id_hex}")
         assert response.status_code == 404, \
             f"Expected 404 for non-existent key, got {response.status_code}: {response.text}"
-        assert "Key ID not found" in response.json()["detail"]
+                # Construct the expected detail message based on how your API endpoint formats it
+        expected_detail = f"Key ID '{non_existent_key_id_hex}' not found in Vault. Nothing to delete."
+        assert response.json()["detail"] == expected_detail
 
     def test_delete_key_invalid_key_id_format(self, api_client: httpx.Client):
         """Test attempting to delete with an invalid key_id_hex format."""

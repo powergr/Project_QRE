@@ -135,7 +135,7 @@ def run_unified_poc_demo():
             import traceback; traceback.print_exc()
         
         print("\n[Cleanup] QNE Pool will stop automatically.")
-    print("\n=" * 60); print(" Unified PoC Demonstration (with QNE) Finished."); print("=" * 60)
+    print("\n=" * 10); print(" Unified PoC Demonstration (with QNE) Finished."); print("=" * 60)
 
 if __name__ == "__main__":
     run_unified_poc_demo()

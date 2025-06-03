@@ -8,7 +8,8 @@ from typing import Generator
 # --- Configuration for API tests ---
 # Use environment variables for flexibility or fall back to defaults
 API_BASE_URL = os.environ.get("TEST_API_BASE_URL", "http://127.0.0.1:8000/api/v1")
-SERVER_POC_API_KEY = os.environ.get("TEST_SERVER_API_KEY", "poc_super_secret_api_key_123!") 
+SERVER_POC_API_KEY = "poc_super_secret_api_key_123!" # Hardcode temporarily
+print(f"DEBUG CONFTESST.PY: Test client will use API Key: '{SERVER_POC_API_KEY}'")
 # ^ This should match the key your FastAPI server is expecting
 
 @pytest.fixture(scope="session") # "session" scope means this runs once per test session
